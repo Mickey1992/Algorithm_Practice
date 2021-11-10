@@ -31,7 +31,8 @@ public class MergeSortedArray {
             }
             else if(nums1[cur1] >= nums2[cur2]){
                 nums1[--sorted] = nums1[cur1--];
-            }else{
+            }
+            else{
                 nums1[--sorted] = nums2[cur2--];
             }
         }
